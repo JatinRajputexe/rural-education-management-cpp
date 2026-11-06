@@ -16,7 +16,7 @@ public:
 };
 class Student : public Person {
 public:
-    vector<int> courses;                           // enrolled course IDs
+    vector<int> courses;                           
     using Person::Person;
     string role() const override { return "Student"; }
 };
